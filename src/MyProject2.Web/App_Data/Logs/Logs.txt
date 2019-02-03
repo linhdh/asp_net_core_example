@@ -1,0 +1,248 @@
+DEBUG 2019-02-03 10:18:34,213 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-02-03 10:18:34,925 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2019-02-03 10:18:36,244 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject2.Web.Startup.MyProject2WebModule, MyProject2.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 10:18:36,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject2.MyProject2ApplicationModule, MyProject2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 10:18:36,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject2.MyProject2CoreModule, MyProject2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 10:18:36,257 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 10:18:36,257 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 10:18:36,258 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject2.EntityFrameworkCore.MyProject2EntityFrameworkCoreModule, MyProject2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 10:18:36,259 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 10:18:36,259 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 10:18:36,260 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 10:18:36,260 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 10:18:36,268 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2019-02-03 10:18:37,736 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyProject2.EntityFrameworkCore.MyProject2DbContext, MyProject2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 10:18:38,172 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-02-03 10:18:38,390 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-02-03 10:18:38,931 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyProject2
+DEBUG 2019-02-03 10:18:38,948 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-02-03 10:18:39,728 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-02-03 10:18:39,942 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+INFO  2019-02-03 10:18:42,094 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-02-03 10:18:42,094 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2019-02-03 10:18:42,345 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 244.9955ms 200 
+WARN  2019-02-03 10:18:42,407 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2019-02-03 10:18:42,449 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+INFO  2019-02-03 10:18:43,093 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing action MyProject2.Web.Controllers.HomeController.Index (MyProject2.Web)
+INFO  2019-02-03 10:18:43,263 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject2.Web.Controllers.HomeController.Index (MyProject2.Web) - Validation state: Valid
+INFO  2019-02-03 10:18:43,296 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject2.Web.Controllers.HomeController.Index (MyProject2.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 23.694ms.
+INFO  2019-02-03 10:18:43,330 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: MyProject2.Web.Controllers.HomeController.Index is executed by an anonymous user in 124 ms from ::1 IP address with succeed.
+INFO  2019-02-03 10:18:43,538 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-02-03 10:18:44,330 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 952.5937ms.
+INFO  2019-02-03 10:18:44,335 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject2.Web.Controllers.HomeController.Index (MyProject2.Web) in 1237.2164ms
+INFO  2019-02-03 10:18:44,392 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2308.3574ms 200 text/html; charset=utf-8
+INFO  2019-02-03 10:18:44,400 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-paper/bootstrap.css  
+INFO  2019-02-03 10:18:44,400 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css  
+INFO  2019-02-03 10:18:44,412 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css  
+INFO  2019-02-03 10:18:44,412 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css  
+INFO  2019-02-03 10:18:44,503 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\font-awesome\css\font-awesome.css'
+INFO  2019-02-03 10:18:44,503 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+INFO  2019-02-03 10:18:44,503 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\toastr\toastr.css'
+INFO  2019-02-03 10:18:44,509 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.css  
+INFO  2019-02-03 10:18:44,511 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert.css'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\sweetalert\dist\sweetalert.css'
+INFO  2019-02-03 10:18:44,513 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 100.6728ms 200 text/css
+INFO  2019-02-03 10:18:44,513 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 112.4931ms 200 text/css
+INFO  2019-02-03 10:18:44,513 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 101.1806ms 200 text/css
+INFO  2019-02-03 10:18:44,513 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/main.css  
+INFO  2019-02-03 10:18:44,513 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.8922ms 200 text/css
+INFO  2019-02-03 10:18:44,530 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/main.css'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\css\main.css'
+INFO  2019-02-03 10:18:44,530 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.1248ms 200 text/css
+INFO  2019-02-03 10:18:44,593 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-paper/bootstrap.css'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\bootstrap-paper\bootstrap.css'
+INFO  2019-02-03 10:18:44,593 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 192.3283ms 200 text/css
+INFO  2019-02-03 10:18:44,593 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js  
+INFO  2019-02-03 10:18:44,593 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js  
+INFO  2019-02-03 10:18:44,594 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js  
+INFO  2019-02-03 10:18:44,616 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js  
+INFO  2019-02-03 10:18:44,624 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+INFO  2019-02-03 10:18:44,624 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.1706ms 200 application/javascript
+INFO  2019-02-03 10:18:44,635 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js  
+INFO  2019-02-03 10:18:44,636 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+INFO  2019-02-03 10:18:44,636 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\json2\json2.js'
+INFO  2019-02-03 10:18:44,637 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.5855ms 200 application/javascript
+INFO  2019-02-03 10:18:44,637 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.6166ms 200 application/javascript
+INFO  2019-02-03 10:18:44,637 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js  
+INFO  2019-02-03 10:18:44,661 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\blockUI\jquery.blockUI.js'
+INFO  2019-02-03 10:18:44,661 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.0016ms 200 application/javascript
+INFO  2019-02-03 10:18:44,691 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js  
+INFO  2019-02-03 10:18:44,691 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js  
+INFO  2019-02-03 10:18:44,691 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert-dev.js  
+INFO  2019-02-03 10:18:44,691 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js  
+INFO  2019-02-03 10:18:44,693 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\spin.js\spin.js'
+INFO  2019-02-03 10:18:44,693 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.9779ms 200 application/javascript
+INFO  2019-02-03 10:18:44,808 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert-dev.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\sweetalert\dist\sweetalert-dev.js'
+INFO  2019-02-03 10:18:44,906 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2019-02-03 10:18:45,029 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\toastr\toastr.js'
+INFO  2019-02-03 10:18:45,029 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\jquery\dist\jquery.js'
+INFO  2019-02-03 10:18:45,029 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 337.9122ms 200 application/javascript
+INFO  2019-02-03 10:18:45,029 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 392.212ms 200 application/javascript
+INFO  2019-02-03 10:18:45,029 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\moment\min\moment-with-locales.js'
+INFO  2019-02-03 10:18:45,029 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 435.701ms 200 application/javascript
+INFO  2019-02-03 10:18:45,029 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2019-02-03 10:18:45,046 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 354.2274ms 200 application/javascript
+INFO  2019-02-03 10:18:45,046 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3  
+INFO  2019-02-03 10:18:45,060 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 123.5996ms 200 application/javascript
+INFO  2019-02-03 10:18:45,063 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\spin.js\jquery.spin.js'
+INFO  2019-02-03 10:18:45,063 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 371.3231ms 200 application/javascript
+INFO  2019-02-03 10:18:45,145 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2019-02-03 10:18:45,145 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2019-02-03 10:18:45,145 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2019-02-03 10:18:45,147 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2019-02-03 10:18:45,148 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.4886ms 200 application/javascript
+INFO  2019-02-03 10:18:45,148 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2019-02-03 10:18:45,181 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2019-02-03 10:18:45,181 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.64ms 200 application/javascript
+INFO  2019-02-03 10:18:45,186 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2019-02-03 10:18:45,187 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2019-02-03 10:18:45,187 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.0365ms 200 application/javascript
+INFO  2019-02-03 10:18:45,187 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2'
+INFO  2019-02-03 10:18:45,188 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 141.8336ms 200 font/woff2
+INFO  2019-02-03 10:18:45,188 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2019-02-03 10:18:45,188 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.9937ms 200 application/javascript
+INFO  2019-02-03 10:18:45,222 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2019-02-03 10:18:45,222 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.2398ms 200 application/javascript
+INFO  2019-02-03 10:18:45,222 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636847859242575542  
+INFO  2019-02-03 10:18:45,233 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636847859242590403  
+INFO  2019-02-03 10:18:45,235 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/views/home/index.js  
+INFO  2019-02-03 10:18:45,261 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/views/home/index.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\js\views\home\index.js'
+INFO  2019-02-03 10:18:45,261 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.454ms 200 application/javascript
+INFO  2019-02-03 10:18:45,261 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2019-02-03 10:18:45,264 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2019-02-03 10:18:45,264 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.1573ms 200 image/png
+INFO  2019-02-03 10:18:45,324 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts"}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-02-03 10:18:45,339 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies"}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-02-03 10:18:45,440 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2019-02-03 10:18:45,589 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-02-03 10:18:45,691 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 102.7127ms.
+INFO  2019-02-03 10:18:45,706 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-02-03 10:18:45,707 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 367.4366ms
+INFO  2019-02-03 10:18:45,707 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 484.4399ms 200 application/x-javascript
+INFO  2019-02-03 10:18:45,754 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 313.404ms.
+INFO  2019-02-03 10:18:45,754 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-02-03 10:18:45,754 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 430.0378ms
+INFO  2019-02-03 10:18:45,754 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 521.2335ms 200 application/x-javascript; charset=utf-8
+INFO  2019-02-03 10:18:45,771 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2019-02-03 10:18:45,781 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.6966ms 404 
+DEBUG 2019-02-03 18:01:25,616 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-02-03 18:01:26,121 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2019-02-03 18:01:26,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject2.Web.Startup.MyProject2WebModule, MyProject2.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 18:01:26,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject2.MyProject2ApplicationModule, MyProject2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 18:01:26,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject2.MyProject2CoreModule, MyProject2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 18:01:26,506 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 18:01:26,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 18:01:26,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject2.EntityFrameworkCore.MyProject2EntityFrameworkCoreModule, MyProject2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 18:01:26,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 18:01:26,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 18:01:26,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 18:01:26,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 18:01:26,517 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2019-02-03 18:01:27,592 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyProject2.EntityFrameworkCore.MyProject2DbContext, MyProject2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-02-03 18:01:27,851 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-02-03 18:01:27,971 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-02-03 18:01:28,513 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyProject2
+DEBUG 2019-02-03 18:01:28,527 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-02-03 18:01:29,275 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-02-03 18:01:29,625 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+INFO  2019-02-03 18:01:32,564 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-02-03 18:01:32,565 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2019-02-03 18:01:32,815 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 256.04ms 200 
+WARN  2019-02-03 18:01:32,938 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2019-02-03 18:01:33,003 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+INFO  2019-02-03 18:01:34,659 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing action MyProject2.Web.Controllers.HomeController.Index (MyProject2.Web)
+INFO  2019-02-03 18:01:34,889 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject2.Web.Controllers.HomeController.Index (MyProject2.Web) - Validation state: Valid
+INFO  2019-02-03 18:01:34,908 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject2.Web.Controllers.HomeController.Index (MyProject2.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 11.17ms.
+INFO  2019-02-03 18:01:34,952 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: MyProject2.Web.Controllers.HomeController.Index is executed by an anonymous user in 118 ms from ::1 IP address with succeed.
+INFO  2019-02-03 18:01:35,119 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-02-03 18:01:36,303 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1302.9606ms.
+INFO  2019-02-03 18:01:36,316 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject2.Web.Controllers.HomeController.Index (MyProject2.Web) in 1653.1349ms
+INFO  2019-02-03 18:01:36,341 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3792.5703ms 200 text/html; charset=utf-8
+INFO  2019-02-03 18:01:36,423 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css  
+INFO  2019-02-03 18:01:36,425 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-paper/bootstrap.css  
+INFO  2019-02-03 18:01:36,436 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.css  
+INFO  2019-02-03 18:01:36,437 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css  
+INFO  2019-02-03 18:01:36,550 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/main.css  
+INFO  2019-02-03 18:01:36,550 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css  
+INFO  2019-02-03 18:01:36,565 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+INFO  2019-02-03 18:01:36,565 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/main.css'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\css\main.css'
+INFO  2019-02-03 18:01:36,565 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert.css'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\sweetalert\dist\sweetalert.css'
+INFO  2019-02-03 18:01:36,582 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 158.9925ms 200 text/css
+INFO  2019-02-03 18:01:36,589 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.7079ms 200 text/css
+INFO  2019-02-03 18:01:36,589 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\font-awesome\css\font-awesome.css'
+INFO  2019-02-03 18:01:36,589 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.1969ms 200 text/css
+INFO  2019-02-03 18:01:36,591 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 154.9644ms 200 text/css
+INFO  2019-02-03 18:01:36,721 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\toastr\toastr.css'
+INFO  2019-02-03 18:01:36,721 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 283.9995ms 200 text/css
+INFO  2019-02-03 18:01:36,722 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js  
+INFO  2019-02-03 18:01:36,762 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js  
+INFO  2019-02-03 18:01:36,766 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js  
+INFO  2019-02-03 18:01:36,767 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js  
+INFO  2019-02-03 18:01:36,768 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\json2\json2.js'
+INFO  2019-02-03 18:01:36,776 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.0867ms 200 application/javascript
+INFO  2019-02-03 18:01:36,777 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-paper/bootstrap.css'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\bootstrap-paper\bootstrap.css'
+INFO  2019-02-03 18:01:36,777 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js  
+INFO  2019-02-03 18:01:36,777 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 352.4396ms 200 text/css
+INFO  2019-02-03 18:01:36,794 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+INFO  2019-02-03 18:01:36,794 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.9625ms 200 application/javascript
+INFO  2019-02-03 18:01:36,794 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+INFO  2019-02-03 18:01:36,795 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.8399ms 200 application/javascript
+INFO  2019-02-03 18:01:36,868 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js  
+INFO  2019-02-03 18:01:36,870 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js  
+INFO  2019-02-03 18:01:36,920 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert-dev.js  
+INFO  2019-02-03 18:01:36,993 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js  
+INFO  2019-02-03 18:01:37,077 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\toastr\toastr.js'
+INFO  2019-02-03 18:01:37,078 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 209.6658ms 200 application/javascript
+INFO  2019-02-03 18:01:37,165 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\blockUI\jquery.blockUI.js'
+INFO  2019-02-03 18:01:37,166 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 172.3823ms 200 application/javascript
+INFO  2019-02-03 18:01:37,166 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3  
+INFO  2019-02-03 18:01:37,270 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert-dev.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\sweetalert\dist\sweetalert-dev.js'
+INFO  2019-02-03 18:01:37,271 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 350.6759ms 200 application/javascript
+INFO  2019-02-03 18:01:37,271 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\jquery\dist\jquery.js'
+INFO  2019-02-03 18:01:37,271 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 504.3797ms 200 application/javascript
+INFO  2019-02-03 18:01:37,276 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2019-02-03 18:01:37,279 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\spin.js\spin.js'
+INFO  2019-02-03 18:01:37,279 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 409.2359ms 200 application/javascript
+INFO  2019-02-03 18:01:37,279 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js  
+INFO  2019-02-03 18:01:37,367 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2019-02-03 18:01:37,368 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 91.5915ms 200 application/javascript
+INFO  2019-02-03 18:01:37,373 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\spin.js\jquery.spin.js'
+INFO  2019-02-03 18:01:37,373 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 93.6712ms 200 application/javascript
+INFO  2019-02-03 18:01:37,373 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2019-02-03 18:01:37,380 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\moment\min\moment-with-locales.js'
+INFO  2019-02-03 18:01:37,380 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 614.1511ms 200 application/javascript
+INFO  2019-02-03 18:01:37,380 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2019-02-03 18:01:37,388 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2019-02-03 18:01:37,388 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.529ms 200 application/javascript
+INFO  2019-02-03 18:01:37,390 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2019-02-03 18:01:37,391 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.5296ms 200 application/javascript
+INFO  2019-02-03 18:01:37,658 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2019-02-03 18:01:37,670 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2019-02-03 18:01:37,670 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636848136961949382  
+INFO  2019-02-03 18:01:37,670 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2019-02-03 18:01:37,740 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636848136961976998  
+INFO  2019-02-03 18:01:37,768 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2019-02-03 18:01:37,769 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 110.8465ms 200 application/javascript
+INFO  2019-02-03 18:01:37,791 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2019-02-03 18:01:37,791 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 121.6208ms 200 application/javascript
+INFO  2019-02-03 18:01:37,792 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2'
+INFO  2019-02-03 18:01:37,792 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2019-02-03 18:01:37,792 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 121.5375ms 200 application/javascript
+INFO  2019-02-03 18:01:37,792 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/views/home/index.js  
+INFO  2019-02-03 18:01:37,792 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 626.7206ms 200 font/woff2
+INFO  2019-02-03 18:01:37,906 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/views/home/index.js'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\js\views\home\index.js'
+INFO  2019-02-03 18:01:37,906 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 113.9357ms 200 application/javascript
+INFO  2019-02-03 18:01:37,906 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2019-02-03 18:01:38,014 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts"}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-02-03 18:01:38,033 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'C:\Users\linhd\Downloads\MyProject2\3.8.0\src\MyProject2.Web\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2019-02-03 18:01:38,033 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 127.2106ms 200 image/png
+INFO  2019-02-03 18:01:38,035 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies"}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-02-03 18:01:38,177 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2019-02-03 18:01:38,290 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-02-03 18:01:38,450 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 160.1576ms.
+INFO  2019-02-03 18:01:38,463 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-02-03 18:01:38,463 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 428.4154ms
+INFO  2019-02-03 18:01:38,463 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 793.471ms 200 application/x-javascript
+INFO  2019-02-03 18:01:38,601 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 424.0203ms.
+INFO  2019-02-03 18:01:38,602 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-02-03 18:01:38,602 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 587.8337ms
+INFO  2019-02-03 18:01:38,603 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 862.7207ms 200 application/x-javascript; charset=utf-8
+INFO  2019-02-03 18:01:38,657 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2019-02-03 18:01:38,661 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.3199ms 404 
