@@ -17,10 +17,11 @@ namespace MyProject2.Web.Startup
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             //Configure DbContext
-            services.AddAbpDbContext<MyProject2DbContext>(options =>
+            services.AddAbpDbContext<MyProject2DbContext>(options => 
             {
                 DbContextOptionsConfigurer.Configure(options.DbContextOptions, options.ConnectionString);
-            });
+            }
+            );
 
             services.AddMvc(options =>
             {

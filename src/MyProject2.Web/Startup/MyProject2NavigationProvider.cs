@@ -18,7 +18,24 @@ namespace MyProject2.Web.Startup
                         url: "",
                         icon: "fa fa-home"
                         )
-                ).AddItem(
+                )
+                .AddItem(
+                    new MenuItemDefinition(
+                        PageNames.Upload,
+                        L("Upload"),
+                        url: "Home/Upload",
+                        icon: "fa fa-upload"
+                        )
+                )
+                .AddItem(
+                    new MenuItemDefinition(
+                        PageNames.ProductList,
+                        L("Product List"),
+                        url: "Home/ProductList",
+                        icon: "fa fa-list-ul"
+                        )
+                )
+                .AddItem(
                     new MenuItemDefinition(
                         PageNames.About,
                         L("About"),
